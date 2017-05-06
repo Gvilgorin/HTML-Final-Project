@@ -1,0 +1,48 @@
+/*	Style sheet for the homepage of the website
+	Author: Gregory V & ________
+	Data: 5.4.2017
+
+	FileName: homepage-stylesheet.css
+*/
+
+/* Styles for all body elemets*/
+body{
+    color:gold;
+    background-image: url(images/website-bkg2.jpg);
+}
+
+/*Styles for Nav*/
+nav{
+/*    border: .5em firebrick solid;*/
+    font-size: 15pt;
+    font-family: sans-serif;
+    text-align: center;   
+}
+
+
+nav a{
+    text-decoration: none;
+    color: inherit;
+    padding-right: 7em;
+/*    border: 3px inherit solid;*/
+    text-align: center;
+    border-collapse: collapse;
+}
+
+nav a:hover{
+    color:red;
+}
+
+#nav-div{
+    display: block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Element styles*/
+h1{
+    text-align: center;
+    font-family: fantasy;
+    
+}

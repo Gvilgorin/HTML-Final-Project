@@ -11,36 +11,25 @@ body{
     background-image: url(images/website-bkg2.jpg);
 }
 
-/*Styles for Nav*/
-nav{
-/*    border: .5em firebrick solid;*/
-    font-size: 15pt;
-    font-family: sans-serif;
-    text-align: center;   
+/*Styles for Sectioning tags*/
+section.about{
+	width:65%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 15pt;
+	font-family: fantasy;
+	border: 5px solid ghostwhite;
+}
+section.about p{
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
-nav a{
-    text-decoration: none;
-    color: inherit;
-    padding-right: 7em;
-/*    border: 3px inherit solid;*/
-    text-align: center;
-    border-collapse: collapse;
-}
 
-nav a:hover{
-    color:red;
-}
 
-#nav-div{
-    display: block;
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/*Element styles*/
+/*Styles for grouping tags*/
 h1{
     text-align: center;
     font-family: fantasy;

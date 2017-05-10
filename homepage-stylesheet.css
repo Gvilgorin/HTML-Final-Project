@@ -1,0 +1,75 @@
+
+body{
+    color:gold;
+    background-image: url(images/website-bkg2.jpg);
+    margin-left:auto;
+    margin-right: auto;
+   
+}
+
+
+/*Element styles*/
+h1{
+    text-align: center;
+    font-family: fantasy;
+    
+}
+
+section.about{
+	width:65%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 15pt;
+	font-family: fantasy;
+	border: 5px solid ghostwhite;
+}
+section.about p{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#games {
+    margin-left: 20%;
+    width: 17%;
+    float: left;
+    text-align: center;
+    border: 5px solid gold;
+    border-radius: 20px;
+    position: absolute;
+   
+    
+}
+
+#games h3 a {
+    text-align: center;
+}
+
+#leaderboards {
+    margin-right: 25%;
+    width: 20%;
+    float: right;
+    border: 5px solid gold;
+    border-radius: 20px;
+    text-align: center;
+   
+}
+
+.center {
+    margin: inherit;
+
+}
+
+.container {
+    width: 100%;
+    float: left;
+    border: 0px transparent;
+}
+
+.centered-div {
+    max-width: 420px; 
+    max-height: 315px;
+    margin-right: auto;
+    margin-left: auto;
+}
